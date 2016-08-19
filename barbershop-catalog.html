@@ -41,7 +41,7 @@
         <main class="container">
             <div class="item-title">    
                 <h1 class="item-name">Средства для ухода</h1>
-                <div class="catalog-menu"><!-- класс "хлебные крошки" -->
+                <div class="breadcrumbs"><!-- класс изменила -->
                     <ul>
                         <li>
                             <a href="#">Главная</a>
@@ -85,49 +85,43 @@
                 </div>
                 <div class="index-content-right">
                     <section class="items">
-                        <!-- Крайне неверно, разметить плашки через дивы-->
-                            <table>
-                                <tr>
-                                    <td>
-                                        <img src="http://placehold.it/220x162" width="220" height="162" alt="Набор для путешествий 'Baxter of California'">
-                                        <p class="item-title">Набор для путешествий 'Baxter of California'</p>
-                                        <button class="btn item-price">2 900 руб.</button>
-                                        <button class="btn item-buy">Купить</button>
-                                    </td>
-                                    <td>
-                                        <img src="http://placehold.it/220x162" width="220" height="162" alt="Увлажняющий кондиционер  'Baxter of California'">
-                                        <p class="item-title">Увлажняющий кондиционер 'Baxter of California'</p>
-                                        <button class="btn item-price">750 руб.</button>
-                                        <button class="btn item-buy">Купить</button>
-                                    </td>
-                                    <td>
-                                        <img src="http://placehold.it/220x162" width="220" height="162" alt="Гель для волос 'Suavecito'">
-                                        <p class="item-title">Гель для волос 'Suavecito'</p>
-                                        <button class="btn item-price">250 руб.</button>
-                                        <button class="btn item-buy">Купить</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <img src="http://placehold.it/220x162" width="220" height="162" alt="Глина для укладки волос 'American Crew'">
-                                        <p class="item-title">Глина для укладки волос 'American Crew'</p>
-                                        <button class="btn item-price">500 руб.</button>
-                                        <button class="btn item-buy">Купить</button>
-                                    </td>
-                                    <td>
-                                        <img src="http://placehold.it/220x162" width="220" height="162" alt="Гель для волос 'American Crew'">
-                                        <p class="item-title">Гель для волос 'American Crew'</p>
-                                        <button class="btn item-price">300 руб.</button>
-                                        <button class="btn item-buy">Купить</button>
-                                    </td>
-                                    <td>
-                                        <img src="http://placehold.it/220x162" width="220" height="162" alt="Набор для бритья 'Baxter of California'">
-                                        <p class="item-title">Набор для бритья 'Baxter of California'</p>
-                                        <button class="btn item-price">3 900 руб.</button>
-                                        <button class="btn item-buy">Купить</button>
-                                    </td>
-                                </tr>
-                            </table>
+                        <!-- Сделала плашки через дивы, корректно ли дала имя классам?-->
+                            <div class="item-one">
+                                <img src="http://placehold.it/220x162" width="220" height="162" alt="Набор для путешествий 'Baxter of California'">
+                                <p class="item-title">Набор для путешествий 'Baxter of California'</p>
+                                <button class="btn item-price">2 900 руб.</button>
+                                <button class="btn item-buy">Купить</button>
+                            </div>
+                            <div class="item-two">
+                                <img src="http://placehold.it/220x162" width="220" height="162" alt="Увлажняющий кондиционер  'Baxter of California'">
+                                <p class="item-title">Увлажняющий кондиционер 'Baxter of California'</p>
+                                <button class="btn item-price">750 руб.</button>
+                                <button class="btn item-buy">Купить</button>
+                            </div>
+                            <div class="item-three">
+                                <img src="http://placehold.it/220x162" width="220" height="162" alt="Гель для волос 'Suavecito'">
+                                <p class="item-title">Гель для волос 'Suavecito'</p>
+                                <button class="btn item-price">250 руб.</button>
+                                <button class="btn item-buy">Купить</button>
+                            </div>
+                            <div class="item-four">
+                                <img src="http://placehold.it/220x162" width="220" height="162" alt="Глина для укладки волос 'American Crew'">
+                                <p class="item-title">Глина для укладки волос 'American Crew'</p>
+                                <button class="btn item-price">500 руб.</button>
+                                <button class="btn item-buy">Купить</button>
+                            </div>
+                            <div class="item-five">
+                                <img src="http://placehold.it/220x162" width="220" height="162" alt="Гель для волос 'American Crew'">
+                                <p class="item-title">Гель для волос 'American Crew'</p>
+                                <button class="btn item-price">300 руб.</button>
+                                <button class="btn item-buy">Купить</button>
+                            </div>
+                            <div class="item-six">
+                                <img src="http://placehold.it/220x162" width="220" height="162" alt="Набор для бритья 'Baxter of California'">
+                                <p class="item-title">Набор для бритья 'Baxter of California'</p>
+                                <button class="btn item-price">3 900 руб.</button>
+                                <button class="btn item-buy">Купить</button>
+                            </div>
                         </section>
                         <div class="catalog-pages">
                             <ul>
@@ -140,4 +134,25 @@
                 </div>
             </div>
         </main>
-            
+        <footer class="main-footer">
+             <div class="container">
+                 <section class="footer-contacts">
+                     Барбершоп «Бородинский»<br>
+                     Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                     <a href="#">Как нас найти?</a><br>
+                     Телефон: +7 (812) 666-02-66
+                 </section>
+                 <section class="footer-social">
+                     <p>Давайте дружить!</p>
+                     <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+                     <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                     <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+                 </section>
+                 <section class="footer-copyright">
+                     <p>Разработано:</p>
+                     <a href="btn" href="https://htmlacademy.ru">HTML Academy</a>
+                 </section>
+              </div>
+          </footer>
+      </body>
+  </html>    
