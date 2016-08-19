@@ -41,7 +41,7 @@
         <main class="container">
             <div class="item-title">    
                 <h1 class="item-name">Набор для путешествий "Baxter of California"</h1>
-                <div class="catalog-menu"><!-- Все таки тут класс должен быть "хлебные крошки"  -->
+                <div class="breadcrumbs"><!-- Класс поменяла  -->
                     <ul>
                         <li>
                             <a href="#">Главная</a>
@@ -62,31 +62,24 @@
                         <img src="http://placehold.it/460x499" width="460" height="499" alt="Baxter of California">
                     </section>
                     <section class="item-photo-preview">
-                      <!-- Зачем так сложно? можно просто 3 картинки разметить и все, списоск можно убрать -->
-                        <ul>
-                            <li>
-                                <img src="http://placehold.it/140x151" width="140" height="151" alt="Baxter of California-1">
-                            </li> 
-                            <li>
-                                <img src="http://placehold.it/140x151" width="140" height="151" alt="Baxter of California-2">
-                            </li>
-                            <li>
-                                <img src="http://placehold.it/140x151" width="140" height="151" alt="Baxter of California-3">
-                            </li>
-                        </ul>
+                      <!-- Список убрала -->
+                        <img src="http://placehold.it/140x151" width="140" height="151" alt="Baxter of California-1">
+                        <img src="http://placehold.it/140x151" width="140" height="151" alt="Baxter of California-2">
+                        <img src="http://placehold.it/140x151" width="140" height="151" alt="Baxter of California-3">
                     </section>
                 </div>
                 <div class="index-content-right">
                     <div class="item-available">Есть в наличии</div>
                     <div class="item-articul">Артикул: Dexter-AE</div>
                     <div class="item-description">
-                        <section class="item-description-about"><!-- Думаю этот див можно убрать и класс присвоить параграфу -->
-                            <p> 
-                                Travel Kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится всё, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
-                            </p>
-                            <button class="btn item-price">2 900 руб.</button><!-- Пожалуй тут лучше спан, а цену в ссылку -->
+                        <!-- Класс параграфу присвоила, див убрала -->
+                        <p class="item-description-about"> 
+                            Travel Kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится всё, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
+                        </p>
+                            <span class="btn item-price">
+                                <a href="#">2 900 руб.</a>
+                            </span><!-- Пожалуй тут лучше спан, а цену в ссылку ==> DONE -->
                             <button class="btn item-buy">Купить</button>
-                        </section>
                         <section class="item-description-features">
                             <b class="title-features">В набор входят</b>
                             <ul class="title-features">
